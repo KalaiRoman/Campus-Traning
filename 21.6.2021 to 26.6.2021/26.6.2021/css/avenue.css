@@ -1,0 +1,465 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(249, 247, 247, 1);
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('Gilroy-Bold.eot?#iefix') format('embedded-opentype'), url('Gilroy-Bold.woff') format('woff'), url('Gilroy-Bold.ttf') format('truetype'), url('Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.imaged {
+    width: 60px;
+    height: 60px;
+    /* background-color: red; */
+    clip-path: circle();
+    font-size: 10px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.nav-titels {
+    width: 7%;
+    height: 750px;
+    background: -webkit-linear-gradient(bottom, #5c77f4, #198eff);
+    float: left;
+    position: fixed;
+    transition: 0.05s;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    top: 60px;
+    left: 30px;
+    transition: 0.05s;
+}
+
+.sub-title {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: white;
+    position: relative;
+    top: -415px;
+    left: 90px;
+    margin-top: 10px;
+    font-size: 20px;
+    transition: 0.05s;
+}
+
+.nav-titels:hover {
+    background: -webkit-linear-gradient(bottom, #5c77f4, #198eff);
+    width: 18%;
+    height: 800px;
+    cursor: pointer;
+}
+
+.nav-titels:hover .sub-title a {
+    opacity: 1;
+}
+
+#icons {
+    color: white;
+    font-size: 30px;
+}
+
+#icons:hover {
+    background-color: red;
+}
+
+.sub-title a {
+    text-decoration: none;
+    color: white;
+    opacity: 0;
+}
+
+.navbar {
+    position: fixed;
+    margin-left: 96px;
+    width: 93%;
+    background: white;
+    box-shadow: 0 0 10px lightgray;
+}
+
+.nav-texts {
+    font-size: 1rem;
+}
+
+.main-title a:hover {
+    background-color: white;
+    width: 242.5px;
+    position: relative;
+    left: -30px;
+    color: red;
+    opacity: 1;
+}
+
+.topbar-1 {
+    width: 93%;
+    height: 70px;
+    /* background-color: white; */
+    float: right;
+    position: fixed;
+    margin-left: 98px;
+    box-shadow: 0 0 30px white;
+}
+
+.test {
+    position: relative;
+    left: 175px;
+    top: 10px;
+    border-radius: 30px;
+}
+
+.test1 {
+    position: relative;
+    float: right;
+    right: 250px;
+    top: 15px;
+}
+
+input {
+    font-size: 18px;
+}
+
+.test4 {
+    position: relative;
+    float: right;
+    right: 40px;
+    /* top: -50px; */
+    color: black;
+    left: -180px;
+    top: 19px;
+}
+
+.test5 {
+    position: relative;
+    float: right;
+    left: 200px;
+    top: 15px;
+}
+
+.topbar-title {
+    width: 90%;
+    height: 700px;
+    float: right;
+    /* background-color: blue; */
+}
+
+.main-title-topbar {
+    width: 48%;
+    height: 50px;
+    /* background-color: red; */
+    float: left;
+    margin-top: 40px;
+    margin-left: 100px;
+    position: relative;
+    top: 70px;
+}
+
+.main-title-topbar h5 {
+    position: relative;
+    top: -27px;
+}
+
+.text-bars {
+    color: grey;
+}
+
+.boxes {
+    width: 47%;
+    height: 300px;
+    /* background-color: green; */
+    clear: both;
+    margin-left: 40px;
+    color: white;
+    float: left;
+}
+
+.nav-box1 {
+    width: 43%;
+    height: 140px;
+    /* background-color: red; */
+    float: left;
+    position: relative;
+    left: 20px;
+}
+
+.nav-box2 {
+    width: 43%;
+    height: 140px;
+    /* background-color: yellow; */
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 15px;
+}
+
+.main-box {
+    width: 45%;
+    height: 180px;
+    float: right;
+    margin-right: 20px;
+    color: white;
+    position: relative;
+    right: 100px;
+    left: 10px;
+    top: 80px;
+}
+
+.main-boxes {
+    width: 40%;
+    height: 210px;
+    /* background-color: orangered; */
+    float: left;
+    margin-left: 110px;
+    margin-top: 10%;
+    color: white;
+}
+
+.nav-box-main {
+    width: 90%;
+    background: -webkit-linear-gradient(left, #5c77f4, #198eff);
+    height: 180px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.boxes1 {
+    width: 90%;
+    height: 210px;
+    background-color: white;
+    float: right;
+    position: relative;
+    right: 90px;
+    border: -6px solid grey;
+    top: -70px;
+    box-shadow: 0 0 10px lightgray;
+}
+
+.boxes2 {
+    width: 32%;
+    height: 140px;
+    /* background-color: rgb(255, 71, 200); */
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 14px;
+}
+
+.boxes3 {
+    width: 40%;
+    height: 140px;
+    /* background-color: tomato; */
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+.boxes3 p {
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.htest {
+    color: #5c77f4;
+}
+
+.sub-titles {
+    width: 35%;
+    height: 130px;
+    /* background-color: blueviolet; */
+    clear: both;
+    position: relative;
+    top: 80px;
+    left: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sub-title1,
+.sub-title2,
+.sub-title3,
+.sub-title4 {
+    position: relative;
+    /* top: 10px; */
+}
+
+.sub-middle-title {
+    width: 35%;
+    height: 130px;
+    margin-top: 2%;
+    /* background-color: cyan; */
+    position: relative;
+    left: 110px;
+    display: flex;
+    justify-content: space-between;
+    top: 50px;
+    color: #198eff;
+    right: 5px;
+}
+
+.sub-title5,
+.sub-title6,
+.sub-title7,
+.sub-title8 {
+    position: relative;
+    top: 20px;
+    color: #198eff;
+}
+
+.page {
+    position: relative;
+    float: right;
+    top: -300px;
+    right: 560px;
+}
+
+.text1 {
+    display: flex;
+    gap: 15px;
+}
+
+.famecard {
+    /* box-shadow: 0 0 10px lightgray; */
+    width: 13rem;
+    height: 22rem;
+    position: relative;
+    float: right;
+}
+
+.famecard .image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 300px;
+    top: -300px;
+}
+
+.famecard .image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.famecard .texted {
+    /* display: none; */
+}
+
+.nav-sub-title .texts {
+    float: right;
+    position: relative;
+    top: -350px;
+    right: 500px;
+}
+
+.texted {
+    font-size: 15px;
+    position: relative;
+    right: 270px;
+    top: -455px;
+}
+
+.texted .text4 {
+    color: rgb(96, 13, 228);
+    font-size: 25px;
+}
+
+.texted .text5 {
+    color: #ffd9b3;
+}
+
+.texted .text6 {
+    color: #ffcc99;
+    position: relative;
+    left: 25px;
+    font-size: 20px;
+    top: -5px;
+}
+
+.texted .text7 {
+    color: #ff66b3;
+    position: relative;
+    left: 80px;
+    top: -50px;
+    font-size: 20px;
+}
+
+.famecarded {
+    /* box-shadow: 0 0 10px lightgray; */
+    width: 13rem;
+    height: 22rem;
+    position: relative;
+    float: right;
+}
+
+.famecarded .image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 230px;
+    top: -300px;
+}
+
+.famecarded .image img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.famecarded .texted {
+    /* display: none; */
+}
+
+.texted1 {
+    position: relative;
+    left: 260px;
+    top: -470px;
+}
+
+.texted1 {
+    color: white;
+}
+
+.texted1 .text8 {
+    color: blue;
+    position: relative;
+    top: 20px;
+    font-size: 24px;
+}
+
+.texted1 .text9 {
+    color: #ffcc99;
+    position: relative;
+    font-size: 15px;
+    top: 30px;
+}
+
+.texted1 .text10 {
+    color: #ff66b3;
+    position: relative;
+    left: 4px;
+    font-size: 20px;
+    top: 20px;
+}
+
+.texted1 .text11 {
+    font-size: 14px;
+    position: relative;
+    left: 30px;
+    top: -20px;
+}
