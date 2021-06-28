@@ -1,0 +1,53 @@
+a {
+    border: 2px solid black;
+    border-radius: 30px;
+    border-width: 10px;
+    padding: 6px;
+    margin: 0 auto;
+}
+
+a:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+table,
+th,
+tr,
+td {
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+
+.table2,
+.test3 {
+    text-align: right;
+}
+
+th {
+    padding: 20px;
+    background-color: royalblue;
+}
+
+h2 {
+    visibility: hidden;
+}
+
+p {
+    font-size: 30px;
+}
+
+.text5 {
+    display: none;
+}
+
+#classed ul li {
+    display: inline;
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.text6 span {
+    display: block;
+}

@@ -1,0 +1,58 @@
+h1 {
+    background-color: blue;
+    color: black;
+    font-size: 30px;
+    padding-top: 80px;
+}
+
+a {
+    border: 2px solid black;
+    border-radius: 30px;
+    border-width: 10px;
+    padding: 6px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+a:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+h2 {
+    background-color: blue;
+    color: black;
+    font-size: 30px;
+    padding-bottom: 100px;
+}
+
+h3 {
+    background-color: blue;
+    color: black;
+    font-size: 30px;
+    padding-left: 450px;
+    height: 100px;
+}
+
+h4 {
+    background-color: yellow;
+    color: black;
+    font-size: 30px;
+    height: 600px;
+}
+
+h5 {
+    background-color: blue;
+    color: black;
+    font-size: 30px;
+    height: 100px;
+    width: 100px;
+}
+
+h6 {
+    background-color: blue;
+    color: black;
+    font-size: 50px;
+    height: 300px;
+    width: 30%;
+}

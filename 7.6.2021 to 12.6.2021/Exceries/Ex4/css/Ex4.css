@@ -1,0 +1,13 @@
+#sample {
+    border: 2px solid grey;
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 10%;
+    height: 100px;
+    background-color: hotpink;
+    transition: 1s;
+}
+
+#sample:hover {
+    transform: rotate(45deg);
+}

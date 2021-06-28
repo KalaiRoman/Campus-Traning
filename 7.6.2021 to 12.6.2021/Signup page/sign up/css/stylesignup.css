@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blanchedalmond;
+    background-image: url("../images/59.jpg");
+    background-size: cover;
+}
+
+#topbar h1 {
+    color: white;
+    text-align: center;
+}
+
+a {
+    float: right;
+    font-size: 200%;
+    color: blue;
+    text-decoration-line: none;
+    margin-right: 25px;
+    border: 2px solid blue;
+    padding: 3px;
+    border-radius: 30px;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+form {
+    width: 40%;
+    height: 350px;
+    margin-top: 12%;
+    margin-left: 30%;
+    border: 3px solid red;
+    border-radius: 30px;
+}
+
+input {
+    margin-left: 20%;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 2%;
+    cursor: pointer;
+    color: cornflowerblue;
+}
+
+form label {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding: 20%;
+    margin-top: 20%;
+}
+
+input[type="button"] {
+    margin-top: 20px;
+    margin-left: 120px;
+    color: black;
+    padding: 3px;
+}
+
+input[type="button"]:hover {
+    background-color: cyan;
+}
+
+input[type="reset"] {
+    margin-top: 10px;
+    color: black;
+    padding: 3px;
+}
+
+input[type="reset"]:hover {
+    background-color: cyan;
+}
+
+input[type="email"] {
+    color: red;
+}

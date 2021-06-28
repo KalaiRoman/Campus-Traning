@@ -1,0 +1,198 @@
+#collapsibleNavbar li a {
+    margin: 0 46px;
+}
+
+a:hover {
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 20px;
+    /* transform: rotate(3deg); */
+}
+
+body,
+html {
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+    /* background-image: url("../images/d34.jpg"); */
+    /* background-size: cover; */
+}
+
+.card-title {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 20px;
+    color: black;
+    margin-bottom: 1%;
+}
+
+.card-text {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.2;
+    color: black;
+}
+
+.card-text1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.2;
+    color: black;
+    float: right;
+}
+
+.card-text:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.card-text1:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.card-text2:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.card-body a:hover {
+    color: blue;
+}
+
+.card1 {
+    margin: 1%;
+}
+
+
+/* .card-img-top {
+    height: 200px;
+    border: 2px solid red;
+    width: 100px;
+} */
+
+.card1 a {
+    text-decoration-line: none;
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.card1 a:active {
+    color: black;
+}
+
+.card1 a:hover {
+    background-color: hotpink;
+    cursor: pointer;
+}
+
+#text-body {
+    width: 50%;
+    height: 500px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    float: left;
+}
+
+.test {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+p:hover {
+    cursor: pointer;
+    color: black;
+}
+
+#text-body1 {
+    width: 49%;
+    height: 500px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    float: right;
+}
+
+span .btns:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: red;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+hr {
+    clear: both;
+    margin-top: 2%;
+    border-width: 2%;
+    min-width: 20px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.ter2 {
+    float: left;
+}
+
+.ter1 {
+    margin-left: 10px;
+    float: right;
+}
+
+#content1 {
+    width: 33%;
+    height: 200px;
+    /* background-color: red; */
+    float: left;
+}
+
+ul {
+    color: black;
+}
+
+#content1 ul li {
+    list-style: none;
+    padding: 12px;
+}
+
+#content2 {
+    width: 33%;
+    height: 200px;
+    /* background-color: orange; */
+    float: left;
+}
+
+#content2 ul li {
+    list-style: none;
+    padding: 12px;
+}
+
+#content3 {
+    width: 33%;
+    height: 200px;
+    /* background-color: blue; */
+    float: right;
+}
+
+#content3 ul li {
+    list-style: none;
+    padding: 12px;
+}
+
+footer {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    float: right;
+    margin-right: 1%;
+}

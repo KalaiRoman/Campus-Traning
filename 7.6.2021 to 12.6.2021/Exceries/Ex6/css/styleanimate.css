@@ -1,0 +1,110 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    border: 2px solid red;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.main ul {
+    display: flex;
+    list-style: none;
+}
+
+.main ul li {
+    padding: 20px;
+    color: black;
+}
+
+.contact {
+    margin-left: auto;
+}
+
+.contact:hover {
+    transform: rotate(5deg);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    transition: 1s ease-in-out;
+    background-color: rgb(134, 104, 104);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#container {
+    width: 1500px;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    margin: auto 2px;
+    background-color: rgba(255, 0, 0, 1);
+    display: flex;
+    margin-top: 1%;
+    border-radius: 20px 40px 40px 20px;
+    color: orange;
+    font-size: 40px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTab_pg_JTt0tOBKqpRmQWcRkeYts6u3QTJwQ&usqp=CAU");
+    background-size: cover;
+    background-position-x: center;
+    position: relative;
+}
+
+span {
+    color: red;
+    font-size: 50px;
+}
+
+span:hover {
+    transform: rotate(60deg);
+    cursor: pointer;
+}
+
+#container:hover {
+    /* transition: 1s ease-in-out;
+    transform: rotate(90deg); */
+    cursor: pointer;
+}
+
+#lower-body {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+    border: 8px solid gray;
+    border-radius: 30px;
+    margin-top: 1%;
+}
+
+#lower-body img {
+    border: 4px solid black;
+    padding: 30px;
+    margin: 10px 30px;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+img:hover {
+    transform: rotate(20deg);
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    float: right;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 30px;
+    padding: 13px;
+}

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <!-- Latest compiled and minified CSS -->
+       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/colorlip.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="firstpage">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+               <img src="data:image/webp;base64,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" width="160" height="40">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                            <a class="nav-link disabled" href="#">+  BREED2</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-icons">
+                        <ul class="nav-ul">
+                            <li style="color:grey;"><a href=""><i class="fa fa-desktop" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-tablet" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-mobile" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-times" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </nav>
+        
+            <div class="main-nav">
+                <div class="nav-bars-item1" style="display:warp;">
+                   
+                     <ul class="nav-bar-ul"> 
+                        <img src="data:image/webp;base64,UklGRr4DAABXRUJQVlA4TLIDAAAvdcAFEP+FFpIk9RzU+8N8+gwXvoKbSJIcKU/zJ3OYzn6re14xaNtIkjejhXcv5sN1ghwAYCEp3D3btm38XMBdESzlGriXbdv3sm3bDicBznEYePu85xX4ggENAQMcGr94AsNxfxzfuzgGB8Mjtvs791kAAgt9ygDxXgAGFH5xgVn89M4NlnBEJmwBgXunYMYn3nGGVsw3ERzhEwJj+MZg0xYW8YaGmkYFECC8agjXELiqKQSCwAvFe/2X89rZsEIMENJAAQGBYVd7wz++sYAbjOOkzAYUFBRGwSblwgpmpMGjTAKcUQIKCFgCOMM1LjFSJgSxiACGP0xAMNc0BAy4IRhF8J9MDuxBkYTAMj1Q6AMv5cASlkiBV51pfMHAAhZKJ6gCg8RRzQKB8EN1nV2UAwLWAN5Q2LQGgX9MNO1jEW1gTQYoMBzRju17f5Wgtm3bGUm67zhvquqdGtvqsXp6bNu2bdsza8za9s7a+nF5njfZxveI/k8AnB9cu3j62AG0ubevXD59ZM/mtubZ+8K2Nualp6Sdbcvj5x9J20uzcSKmNcnGST5Oq4pJ9DgDbJzosQVMIlYKvfaisgVYvmjutInFIup+LRdR96s5S9cQiOhqYaknbm+/ouzdjY1LFsxuGv/f/0DaAmStOdF3eecN7SDWr1q2YHZT48hSjDFxLlGMMUnOV2IjVySjSrExEUmGDu+/qRwH1qwUhpXhAYAlGUke8h5JJYNjRHpwzGUArEeyonz4rnLyMDatkxpKg18oJWmbDSzJUPriE+XSGRzaoYworcaWhYCkFT77WDmPw/t2KqOBXl06du3rxMyYmCSrTpYkIUVpPqlJTOUCqfbV58pV4MQebRQGD6jX6/U+TmoGiWmaxiQZK6pR1AKZ8v032g2cPeLQMGSg0LmMQFN9tIAfvvtWu3rulDa5sWGoVHfxKlmWBSTDAiG0yOTTmmLkcn5+4nDl8mllDsZo7Z2QD0haKU1jkpFDBseI9ODoEgm//qi88Nxdh4WzMFbrVixz8AD4JKvNiqSHv3/XXsZNbel8TJ+gdOhfLC5QJek3p5hkgn9+U14F7miLgSmNSm8UMiQJBwQkK82mFpKkxZ/K64/x9H1lNTCjSekOJ8fYqUrSU/RIcLSCXgH+kt57C3hGWbsCmKd0aldOACeEJE1zygD8IX0A4OE9aQOAmUo/lBFkKFAj6TUbP0X+X+FT5G8JW5GfKvRAq/3LT0++/vIjAdcvnD66f5cwadzwoYN6otUG">
+                        
+                        <li class="nav-list" style="margin-left:14px;><a class="nav-link disabled" href="https://getbootstrap.com/docs/5.0/components/navs-tabs/#base-nav">HOME</a></li>
+                        <li class="nav-list"><a class="nav-link disabled" href="">ABOUT</a></li>
+                        <li class="nav-list"><a class="nav-link disabled" href="">PORTFOLIO</a></li>
+                        <li class="nav-list"><a class="nav-link disabled" href="">PAGES</a></li>
+                        <li class="nav-list"><a class="nav-link disabled" href="">BLOG</a></li>
+                        <li class="nav-list"><a class="nav-link disabled" href="">CONTACT</a></li>
+
+                    </ul>
+                </div>
+                <div class="nav-bars-items2">
+                    <p style="color:grey;margin-left:18%; margin-top:10%;font-size:3rem;">HEY THERE!</p>
+                    <h1 style="color:rgb(5, 54, 77);margin-left:17%;line-height:2;font-size:6.5rem">I AM JOB BREED</h1>
+                    <p1 style="font-size:2rem;margin-left:18%;line-height:2;">CREATIVE ART DIRECTOR & DESIGNER</p1>
+                    <div class="icons">
+                        <a class="bar-icons" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a class="bar-icons" href=""><i class="fa fa-skype" aria-hidden="true"></i></a>
+                        <a class="bar-icons" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a class="bar-icons" href=""><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                        <a class="bar-icons" href=""><i class="fa fa-vimeo" aria-hidden="true"></i></a>    
+                    </div>
+                    <button class="button btn-lg" style="margin-left:18%;border-radius:10px;padding:4%;margin-top:3%;">SEE MY WORK</button>
+
+                </div>
+                <div class="nav-bars-items3">
+                    <img src="https://preview.colorlib.com/theme/breed2/img/banner/xhome-right.png.pagespeed.ic.9EvmcO3oQb.webp" width="240" height="400">
+                </div>
+        </div>
+    </div>
+    <div class="banner-titles">
+        <div class="items1">
+            <h1 class="title">15K+</h1>
+            <p class="colr"> Happy<br>Customer</p>
+        </div>
+
+        <div class="items2">
+            <h1 class="title">12K</h1>
+            <p class="colr"> Ticket Solved</p>
+        </div>
+
+        <div class="items3">
+            <h1 class="title">9/10</h1>
+            <p class="colr"> Average<br>Rating</p>
+        </div>
+
+    </div>
+    
+    <div class="grid-bodys">
+        <div class="grid-items1">
+            <img src="https://preview.colorlib.com/theme/breed2/img/xabout-us.png.pagespeed.ic.zoNGpLzqsH.webp" width="500" height="400" style="margin-left:45px;margin-top:12%;">
+        </div>
+        <div class="grid-items2">
+            <p2 style="font-size:4rem;color:grey;">ABOUT ME</p2>
+            <h1 style="font-size:4rem;color:#05364d;">Creative Art<br>  Director<br> And Designer</h1>
+            <p3 class="nav-size" style="text-align:center;font-size:20px;line-height:2;margin-right:90px;color:grey;font-family:"Robot",sans-serif">Also signs his face were digns fish don't first isn't over evening hath<br> divided days light darkness gathering moved dry all darkness then fourth<br> can't create d forth Also signs Also signs his face were moltenus Also<br> signs his face.</p3><br><br>
+
+            <button class="button btn-lg" style="border-radius:10px;border-color:violet;padding:15px;margin:25px;margin-bottom:-10px;">DOWNLOAD CV</button>
+        </div>
+    </div>
+</div>
+
+    <div class="middle-itemes" style="padding:30px;">
+        <div class="middle-items" style="clear:both;margin-left:40px;padding-left:30px;padding:30px;"><br><br><br>
+            <p3 style="margin-top:5%;line-height:5;font-size:3rem;">OUR SERVICE </p3>
+            <h1 style="color:#05364d;line-height:1.5;">What Service We<br> Offer For You</h1>
+        </div>
+    </div>
+<div class="banner-items">
+    <div class="card text-center">
+      <div class="card-body">
+        <img src="https://preview.colorlib.com/theme/breed2/img/services/xs1.png.pagespeed.ic.MMAP6lBZE8.webp" width="100" height="90" style="margin-top:5%;">  
+        <h4 class="navcolor">WEB Development</h4>
+        <h4 style="line-height:2;margin-left:15px;margin-right:10px;font-size:2rem;"> Fruit saw for brought fish forth had ave is man a that 
+                    their Two he is dominion evening their
+                    Fruit saw for brought fish forth.</h4>
+        <h3 style="font-size:15px;margin-right:24%;padding:25px;color:#05364d;">LEARN MORE..</h3>
+        <hr style="margin-right:60%;border-width:3px;border-color:#1345e6;margin-left:115px;margin-top:-26px;">
+        
+    </div>
+  </div>
+ 
+  <div class="card text-center">
+      <div class="card-body">
+        <img src="https://preview.colorlib.com/theme/breed2/img/services/xs2.png.pagespeed.ic.R5TNR3yMzj.webp" width="100" height="90" style="margin-top:5%;">  
+        <h4 class="navcolor">UX/UI Design</h4>
+        <h4 style="line-height:2;margin-left:15px;margin-right:10px;font-size:2rem;"> Fruit saw for brought fish forth had ave is man a that 
+                    their Two he is dominion evening their
+                    Fruit saw for brought fish forth.</h4>
+         <h3 style="font-size:15px;margin-right:24%;padding:25px;color:#05364d;">LEARN MORE..</h3>
+       <hr style="margin-right:60%;border-width:3px;border-color:#1345e6;margin-left:118px;margin-top:-26px;">
+        
+    </div>
+  </div>
+ 
+    <div class="card text-center">
+        <div class="card-body">
+            <img src="https://preview.colorlib.com/theme/breed2/img/services/xs3.png.pagespeed.ic.id_8Jx5Zmp.webp" width="100" height="90" style="margin-top:5%;">  
+            <h4 class="navcolor">WP Developing</h4>
+            <h4 style="line-height:2;margin-left:15px;margin-right:10px;font-size:2rem;"> Fruit saw for brought fish forth had ave is man a that 
+                        their Two he is dominion evening their
+                        Fruit saw for brought fish forth.</h4>
+            <p class="p-text" style="font-size:15px;margin-right:24%;padding:25px;color:#05364d;">LEARN MORE..</p>
+            <hr style="margin-right:60%;border-width:3px;border-color:#1345e6;margin-left:118px;margin-top:-26px;">
+    </div>
+    </div>
+</div>
+    <div class="nav-body">
+        <p2 style="margin-left:7%;color:grey;font-size:20px;">OUR TESITMONIAL </p2>
+        <h1 style="margin-left:7%;color:#05364d;font-size:55px;">Honourable Client Says<br> About Me</h1>
+    </div>
+    <div class="nav-images">
+
+        <div class="nav-contents1">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active "style="float:left;margin-top:30%;">
+                    <img src="images/99.png" style="width:40%;;margin-left:10%;" alt="no image">
+                    <div class="shaps-bar" style="float:right;margin-top:-20px;margin-right:50px;">
+                        <h2 class="p-items" style="color:#05364d;font-size:30px;">Roser Henrique</h2>
+                            <h5 class="p-items" style="color:grey;font-size:20px;">Project Manger, Apple</h5>
+                            <p style="color:grey;font-size:15px;line-height:2">Waters can not replenich hath fly and be to brought inot very days<br> behold without land very body lights us fruitful
+                            wher in divide it him fowel moving may<br> begining subdue fly waters cant replenish heath fly and be to brought isnot very days hold.</p>
+                            <ul style="padding:10px;margin:10px;font-size:30px;">
+                                <li class="nav-itemss" ><i class="fa fa-star-o" aria-hidden="true" style="color:yellow;font-size:40px;"></i></li>
+                                <li class="nav-itemss"><i class="fa fa-star-o" aria-hidden="true"style="color:yellow;font-size:40px;"></i></li>
+                                <li class="nav-itemss" ><i class="fa fa-star-o" aria-hidden="true"style="color:yellow;font-size:40px;"></i></li>
+                                <li class="nav-itemss" ><i class="fa fa-star-o" aria-hidden="true"style="color:yellow;font-size:40px;"></i></li>
+                                <li class="nav-itemss" ><i class="fa fa-star-o" aria-hidden="true"style="color:black;font-size:40px;"></i></li>
+                            </ul>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/99.png" style="width:40%;;margin-left:10%;" alt="no image">
+                    <div class="shaps-bar" style="float:right;margin-top:-20px;margin-right:50px;">
+                        <h2 class="p-items" style="color:#05364d;font-size:30px;">Roser Henrique</h2>
+                            <h5 class="p-items" style="color:grey;font-size:20px;">Project Manger, Apple</h5>
+                            <p style="color:grey;font-size:15px;line-height:2">Waters can not replenich hath fly and be to brought inot very days<br> behold without land very body lights us fruitful
+                            wher in divide it him fowel moving may<br> begining subdue fly waters cant replenish heath fly and be to brought isnot very days hold.</p>
+                            <ul style="padding:10px;margin:10px;font-size:30px;">
+                                <li class="nav-itemss" ><i class="fa fa-star-o" aria-hidden="true" style="color:yellow;font-size:40px;"></i></li>
+                                <li class="nav-itemss"><i class="fa fa-star-o" aria-hidden="true"style="color:yellow;font-size:40px;"></i></li>
+                                <li class="nav-itemss" ><i class="fa fa-star-o" aria-hidden="true"style="color:yellow;font-size:40px;"></i></li>
+                                <li class="nav-itemss" ><i class="fa fa-star-o" aria-hidden="true"style="color:yellow;font-size:40px;"></i></li>
+                                <li class="nav-itemss" ><i class="fa fa-star-o" aria-hidden="true"style="color:black;font-size:40px;"></i></li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                     <img src="images/99.png" style="width:40%;;margin-left:10%;" alt="no image">
+                    <div class="shaps-bar" style="float:right;margin-top:-20px;margin-right:50px;">
+                        <h2 class="p-items" style="color:#05364d;font-size:30px;">Roser Henrique</h2>
+                            <h5 class="p-items" style="color:grey;font-size:20px;">Project Manger, Apple</h5>
+                            <p style="color:grey;font-size:15px;line-height:2">Waters can not replenich hath fly and be to brought inot very days<br> behold without land very body lights us fruitful
+                            wher in divide it him fowel moving may<br> begining subdue fly waters cant replenish heath fly and be to brought isnot very days hold.</p>
+                            <ul style="padding:10px;margin:10px;font-size:30px;">
+                                <li class="nav-itemss" ><i class="fa fa-star-o" aria-hidden="true" style="color:yellow;font-size:40px;"></i></li>
+                                <li class="nav-itemss"><i class="fa fa-star-o" aria-hidden="true"style="color:yellow;font-size:40px;"></i></li>
+                                <li class="nav-itemss" ><i class="fa fa-star-o" aria-hidden="true"style="color:yellow;font-size:40px;"></i></li>
+                                <li class="nav-itemss" ><i class="fa fa-star-o" aria-hidden="true"style="color:yellow;font-size:40px;"></i></li>
+                                <li class="nav-itemss" ><i class="fa fa-star-o" aria-hidden="true"style="color:black;font-size:40px;"></i></li>
+                            </ul>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+        </div>
+        <div class="nav-middle-bar">
+            <div class="images-body" style="margin-top:10%;">
+                <p style="margin-left:100px;color:grey;font-size:2rem;">OUR PORTFOLIO</p>
+                <h2 style="margin-left:100px;color:#05364d;font-size:6rem;">Check Our Recent<br> Client Work</h2>
+                <ul style="margin:70px 130px;;pading:20px;cursor:pointer">
+                    <li class="nav-itemss" style="padding:20px;"><a href="#" style="text-decoration-line:none;font-size:17px;">ALL</li></a>
+                    <li class="nav-itemss" style="padding:20px;"><a href="#"style="text-decoration-line:none;font-size:17px;color:grey;">POPULORE</li></a>
+                    <li class="nav-itemss" style="padding:20px;"><a href="#" style="text-decoration-line:none;font-size:17px;color:grey;">LATEST</li></a>
+                    <li class="nav-itemss" style="padding:20px;"><a href="#" style="text-decoration-line:none;font-size:17px;color:grey;">FOLLOWING</li></a>
+                    <li class="nav-itemss" style="padding:20px;"><a href="#" style="text-decoration-line:none;font-size:17px;color:grey;">UPCOMING</li></a>
+                </ul>
+            </div>
+        </div> 
+
+            <div class="nav-middle-bar1" style="margin-top:2%;margin:0 auto;">
+                <div class="nav-middle-bar2">
+                    <img src="https://preview.colorlib.com/theme/breed2/img/portfolio/xp1.jpg.pagespeed.ic.-lM5m8iYG-.webp" style="width:100%;height:100%;">
+                    <div class="nav-bar-color">
+                        <h1 style="margin-top:550px;color:white;margin-left:40px;font-size:30px;">Lens Mockup Design</h1>
+                        <h3 style="color:white;margin-left:40px;font-size:23px;">Art, illustration</h3>
+                    </div>
+                </div>
+                <div class="nav-middle-bar3">
+                    <img src="https://preview.colorlib.com/theme/breed2/img/portfolio/xp4.jpg.pagespeed.ic.K1EumjZqoh.webp" style="height:100%;width:100%"> 
+                    <div class="nav-bar-color">
+                        <h1 style="margin-top:150px;color:white;margin-left:40px;font-size:30px;">Lens Mockup Design</h1>
+                        <h3 style="color:white;margin-left:40px;font-size:23px;">Art, illustration</h3>
+                    </div>
+                </div>
+                <div class="nav-middle-bar4">
+                    <img src="https://preview.colorlib.com/theme/breed2/img/portfolio/xp2.jpg.pagespeed.ic.6SAA10qhp2.webp" style="height:96%;width:100%;">
+                    <div class="nav-bar-color">
+                        <h1 style="margin-top:110px;color:white;margin-left:40px;font-size:30px;">Lens Mockup<br> Design</h1>
+                        <h3 style="color:white;margin-left:40px;font-size:20px;">Art, illustration</h3>
+                    </div>
+                </div>
+                <div class="nav-middle-bar5">
+                    <img src="https://preview.colorlib.com/theme/breed2/img/portfolio/xp3.jpg.pagespeed.ic.Bgcb60MnZd.webp" style="height:100%;width:100%;">
+                    <div class="nav-bar-color">
+                        <h1 style="margin-top:110px;color:white;margin-left:40px;font-size:30px;">Lens Mockup<br> Design</h1>
+                        <h3 style="color:white;margin-left:40px;font-size:20px;">Art, illustration</h3>
+                    </div>
+                </div>
+                <div class="nav-middle-bar6">
+                    <img src="https://preview.colorlib.com/theme/breed2/img/portfolio/xp6.jpg.pagespeed.ic.eiwhYLSWuB.webp" style="height:100%;width:100%;"> 
+                    <div class="nav-bar-color">
+                        <h1 style="margin-top:200px;color:white;margin-left:50px;font-size:30px;">Lens Mockup Design</h1>
+                        <h3 style="color:white;margin-left:50px;font-size:22px;">Art, illustration</h3>
+                    </div>
+                </div>
+                <div class="nav-middle-bar7" style="margin-bottom:9%;">
+                    <img src="https://preview.colorlib.com/theme/breed2/img/portfolio/xp5.jpg.pagespeed.ic.TuKkbYuPVz.webp" style="width:100%;height:100%;">
+                    <div class="nav-bar-color">
+                        <h1 style="margin-top:200px;color:white;margin-left:40px;font-size:30px">Lens Mockup Design</h1>
+                        <h3 style="color:white;margin-left:40px;font-size:20px">Art, illustration</h3>
+                    </div>
+                </div>
+        </div>
+        <div class="end-bar-items">
+                <div class="end-nav-bar" style="clear:both;">
+                    <p style="color:grey;margin-top:3%;margin-left:8%;margin-bottom:5%;font-size:2rem;">OUR BLOG <p>
+                    <h1 style="margin-left:8%;margin-top:4%;color:#05364d;font-size:5.2rem; font-family: sans-serif;">Latest Story From<br> Our Blog</h1>
+                </div>
+            </div>
+        <div class="nav-items-ends">
+            <div class="nav-bar-ends1">
+                <div class="image">
+                    <div class="images1">
+                        <img src="https://preview.colorlib.com/theme/breed2/img/xb1.jpg.pagespeed.ic.ODT-jwh7jO.webp" style="width:100%;height:40%;">
+                    </div>
+                </div>
+                <i class="fa fa-user-secret" aria-hidden="true" style="font-size:4rem;line-height:3;margin-left:24px;"></i><span style="font-size:20px;margin:10px;"> Admin Post</span>
+                <h3 style="color:#05364d;font-size:3rem;margin-bottom:10%;margin-left:24px;">Shall every fourth lesser<br> have...</h3>
+                <p style="font-size:26px;line-height:1.7;color:grey;margin-left:24px;">Have whose a two night earth she set you creeping replenish place whales move Forth first him seed green.</p> 
+                <p1 style="line-height:5;margin-left:24px;font-size:22px;color:#05364d">LEARN MORE....</p1>
+                <hr style="border-width:6px;border-color:red;max-width:90px;margin-left:24px;margin-top:-7%;border-radius:20px;">
+            </div>
+            <div class="nav-bar-ends2">
+                <div class="image">
+                    <div class="images1">
+                        <img src="https://preview.colorlib.com/theme/breed2/img/xb2.jpg.pagespeed.ic.SU1qoBO90-.webp" style="width:100%;height:40%;">
+                    </div>
+                </div>
+                <i class="fa fa-user-secret" aria-hidden="true" style="font-size:4rem;line-height:3;margin-left:24px;"></i><span style="font-size:20px;margin:10px;"> Admin Post</span>
+                <h3 style="color:#05364d;font-size:3rem;margin-bottom:10%;margin-left:24px;">Shall every fourth lesser<br> have...</h3>
+                <p style="font-size:26px;line-height:1.7;color:grey;margin-left:24px;">Have whose a two night earth she set you creeping replenish place whales move Forth first him seed green.</p> 
+                <p1 style="line-height:5;margin-left:24px;font-size:22px;color:#05364d">LEARN MORE....</p1>
+                <hr style="border-width:6px;border-color:red;max-width:90px;margin-left:24px;margin-top:-7%;border-radius:20px;">
+            </div>
+            <div class="nav-bar-ends3">
+                <div class="image">
+                    <div class="images1">
+                        <img src="https://preview.colorlib.com/theme/breed2/img/xb3.jpg.pagespeed.ic.4Bx1RNLjsl.webp" style="width:100%;height:40%;">
+                    </div>
+                </div>
+                
+                <i class="fa fa-user-secret" aria-hidden="true" style="font-size:4rem;line-height:3;margin-left:24px;"></i><span style="font-size:20px;margin:10px;"> Admin Post</span>
+                <h3 style="color:#05364d;font-size:3rem;margin-bottom:10%;margin-left:24px;">Shall every fourth lesser<br> have...</h3>
+                <p style="font-size:26px;line-height:1.7;color:grey;margin-left:24px;">Have whose a two night earth she set you creeping replenish place whales move Forth first him seed green.</p> 
+                <p1 style="line-height:5;margin-left:24px;font-size:22px;color:#05364d">LEARN MORE....</p1>
+                <hr style="border-width:6px;border-color:red;max-width:90px;margin-left:24px;margin-top:-7%;border-radius:20px;">
+            </div>
+    </div>
+    <div class="nav-body1">
+            <ul style="line-height:20;margin-left:7%;">
+                <img src="https://preview.colorlib.com/theme/breed2/img/brands/xlogo1.png.pagespeed.ic.4mejIORzwC.webp" style="margin-right:4%;">
+                <img src="https://preview.colorlib.com/theme/breed2/img/brands/xlogo2.png.pagespeed.ic.4feONKA4in.webp" style="margin-right:4%;">
+                <img src="https://preview.colorlib.com/theme/breed2/img/brands/xlogo3.png.pagespeed.ic.cqmosgzL_6.webp" style="margin-right:5%;">
+                <img src="https://preview.colorlib.com/theme/breed2/img/brands/xlogo4.png.pagespeed.ic.Q2k5EP2eRu.webp" style="margin-right:5%;">
+                <img src="https://preview.colorlib.com/theme/breed2/img/brands/xlogo5.png.pagespeed.ic.eLRQkcHEQN.webp" style="margin-right:5%;">
+            </ul>
+
+        <div class="footer-end">
+            <div class="text-container">
+                <img src="https://preview.colorlib.com/theme/breed2/img/xlogo2.png.pagespeed.ic.VABfFJ_hK0.webp" style="margin-top:12%;margin-left:43%">
+                <ul style="margin-top:4%;margin-left:30%;">
+                    <li class="navbar-lists" style="font-size:20px;"><a class="nav-link text-white" href="#firstnav" style="text-decoration-line:none;">HOME</a></li>
+                    <li class="navbar-lists" style="font-size:20px;"><a class="nav-link text-white" href="https://preview.colorlib.com/#breed2" style="text-decoration-line:none;">ABOUT</a></li>
+                    <li class="navbar-lists" style="font-size:20px;"><a class="nav-link text-white" href="https://preview.colorlib.com/#breed2" style="text-decoration-line:none;">PORTFOLIO</a></li>
+                    <li class="navbar-lists" style="font-size:20px;"><a class="nav-link text-white" href="https://preview.colorlib.com/#breed2" style="text-decoration-line:none;">BLOG</a></li>
+                    <li class="navbar-lists" style="font-size:20px;"><a class="nav-link text-white" href="https://preview.colorlib.com/#breed2" style="text-decoration-line:none;">SERVICES</a></li>
+                </ul>
+
+                <ol class="list-group-list-group-numbered">
+                    <li class="text-list"><a class="list-nav" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="text-list"><a class="list-nav" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="text-list"><a class="list-nav" href=""><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                    <li class="text-list"><a class="list-nav" href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                </ol>
+
+
+                <div class="end">
+                <p style="margin-left:28%;margin-top:3%;font-size:2.4rem;color:#797979;">Copyright ©2021 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <span style="color:violet;">Colorlib<span></p>
+                </div>
+            </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    </body>
+</html>

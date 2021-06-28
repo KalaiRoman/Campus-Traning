@@ -1,0 +1,80 @@
+body {
+    background-image: url("../images/d34.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#topbar h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+#topbar p a {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    border: 4px dashed white;
+    margin-right: 10px;
+    padding: 6px 5px;
+    margin-bottom: 5%;
+    text-decoration-line: none;
+    border-radius: 30px;
+    color: black;
+}
+
+#topbar a:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+form {
+    border: 5px solid black;
+    height: 780px;
+    width: 100%;
+    text-align: center;
+    margin-top: 12%;
+    border-radius: 40px;
+    padding: 25px;
+    font-size: 20px;
+}
+
+input {
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+label {
+    padding: 10px;
+    font-size: 30px;
+}
+
+input[type="button"] {
+    background-color: powderblue;
+    cursor: pointer;
+}
+
+textarea,
+select {
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: purple;
+    cursor: pointer;
+}
+
+#footer {
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+h1 {
+    float: right;
+}

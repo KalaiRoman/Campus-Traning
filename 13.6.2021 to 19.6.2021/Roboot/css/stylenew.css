@@ -1,0 +1,126 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    font-size: 70px;
+    background-color: burlywood;
+    color: blue;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+}
+
+h1:hover {
+    width: 30%;
+    margin-left: 450px;
+    transition: 1s ease-in-out;
+    transition: step-start;
+    cursor: pointer;
+}
+
+#head,
+#right-hand,
+#full-body,
+#left-hand,
+#left-leg,
+#right-leg {
+    background-color: blue;
+}
+
+#head {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 300px 300px 0 0;
+    margin-bottom: 10px;
+}
+
+#head:hover {
+    width: 18%;
+    transition: 1s ease-in-out;
+    transition: 1s ease-out;
+    cursor: pointer;
+}
+
+#right-hand {
+    width: 30px;
+    height: 120px;
+    border-radius: 100px 100px 100px 100px;
+    float: left;
+    margin-left: 550px;
+    margin-top: 1%;
+}
+
+#right-hand:hover {
+    transition: 1s ease-in-out;
+    transform: rotate(45deg);
+}
+
+#left-hand {
+    width: 30px;
+    height: 120px;
+    border-radius: 100px 100px 100px 100px;
+    float: right;
+    margin-bottom: 100%;
+    margin: -14% auto;
+    margin-right: 550px;
+    display: flex;
+}
+
+#left-hand:hover {
+    transition: 1s ease-in-out;
+    transform: rotate(-45deg);
+}
+
+#eye {
+    display: flex;
+}
+
+#left-eye,
+#right-eye {
+    width: 7%;
+    height: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 34px;
+    margin-top: 70px;
+}
+
+#left-eye,
+#right-eye:hover {
+    transition: 1s ease-in-out;
+}
+
+#full-body {
+    width: 150px;
+    height: 200px;
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    margin-left: 44.5%;
+}
+
+#lower-body {
+    margin: 0 auto;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+#left-leg,
+#right-leg {
+    width: 70%;
+    height: 100px;
+    border-radius: 0 0 30px 30px;
+    margin: 10px;
+    margin-bottom: 20%;
+}
+
+#right-leg:hover {
+    transition: 1s ease-in-out;
+    transform: rotate(-25deg);
+}
+
+#left-leg:hover {
+    transition: 1s ease-in-out;
+    transform: rotate(25deg);
+}

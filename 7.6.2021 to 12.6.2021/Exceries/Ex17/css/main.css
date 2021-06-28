@@ -1,0 +1,21 @@
+table {
+    margin-bottom: 23px;
+}
+
+a {
+    border: 2px solid black;
+    border-radius: 30px;
+    border-width: 10px;
+    padding: 6px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+a:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.tr {
+    margin-bottom: 20px;
+}
