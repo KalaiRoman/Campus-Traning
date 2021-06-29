@@ -1,0 +1,14 @@
+body {
+    background-color: salmon;
+}
+
+.names a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 90px;
+    left: 70px;
+    padding: 20px;
+    font-size: 40px;
+}
