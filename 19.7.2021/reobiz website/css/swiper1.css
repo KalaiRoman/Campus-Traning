@@ -1,0 +1,32 @@
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    max-width: 450px;
+    height: 600px;
+    margin-left: 30px;
+}
+
+.text-page-bars {
+    width: 30%;
+    height: 300px;
+    border: 2px solid red;
+}
+
+.card {
+    width: 400px;
+    height: 1000px;
+    position: relative;
+    line-height: 3;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-width: 10px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.cons-text-box {
+    width: 35%;
+    height: 500px;
+    border: 2px solid red;
+    text-align: center;
+    margin-left: 10px;
+}
